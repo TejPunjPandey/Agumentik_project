@@ -1,0 +1,104 @@
+  .navbar
+{
+    display:flex;
+    overflow: hidden;
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:center;
+    align-items:center;
+  }
+  .button
+  {
+     
+      
+    background-color: black;
+    color:white;
+    width:auto;
+    height:30px;
+    border-radius: 4px;
+    justify-self:right;
+    margin-left: 20%;
+
+  }
+  .navbar-logo {
+    margin-right: 60px; /* Push the logo to the left by using auto margin on the right */
+  }
+  .rigt{
+    margin-right: auto; /* Push the button to the left by using auto margin on the right */
+  }
+   
+  /* Navigation links */
+  .navbar a {
+     
+    
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }  
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .left-image,
+  .right-image {
+    flex: 0;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 5px;
+  }
+  
+  .left-image img,
+  .right-image img {
+    max-width: 400px;
+    max-height: 400px;
+  }
+  
+  .content {
+    flex: 2;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  h1, p {
+    margin: 10px 0;
+  }
+  
+  .custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-logo {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+  
+  
+  /* Add a background color on mouse-over */
+  .navbar a:hover {
+  
+    color:red;
+  }
+
+  /* Current page */
+  .active {
+    background-color:white;
+    color: white;
+  }
+ 
