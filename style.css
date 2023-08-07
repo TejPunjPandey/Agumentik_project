@@ -1,4 +1,9 @@
-  .navbar
+*{
+  margin: 0;
+  padding: 0;
+} 
+ 
+ .navbar
 {
     display:flex;
     overflow: hidden;
@@ -41,52 +46,37 @@
   .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
-    background-color: #f0f0f0;
-    padding: 20px;
   }
   
-  .left-image,
-  .right-image {
-    flex: 0;
-    max-width: 100px;
-    max-height: 100px;
-    margin: 5px;
-  }
-  
-  .left-image img,
-  .right-image img {
-    max-width: 400px;
-    max-height: 400px;
+  .left-image, .right-image {
+    flex: 1;
+    padding: 10px;
   }
   
   .content {
-    flex: 2;
+    flex: 1;
+    padding: 10px;
     text-align: center;
-    margin: 10px;
-  }
-  
-  h1, p {
-    margin: 10px 0;
-  }
-  
-  .custom-button {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
   }
   
-  .button-logo {
-    width: 20px;
-    height: 20px;
-    margin-left: 10px;
+ .content button {
+
+   display: flex;
+   place-items: center;
+    padding: 10px 10px;
+    background-color:black;
+    color: #fff;
+    border: none;
+   
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+     
+    
   }
   
   
@@ -101,4 +91,143 @@
     background-color:white;
     color: white;
   }
+  .nft-bar
+  {
+    width: 100%;
+  }
+  .nft-bar img
+  {
+    width: 100%;
+  }
+
+  /* second page */
+
+
+
+ .two-column-layout {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: flex-start;
+   margin: 20px 10px;
+  }
+  
+  .left-column {
+    padding: 20px;  
+  }
+  
+  .right-column {
  
+}
+
+.content-container {
+  text-align: left;
+  padding-left: 20px;
+  
+}
+
+ 
+.right-column img {
+  height: 500px;
+  
+}
+.hr-lines{
+  position: relative;
+  /*  new lines  */
+  max-width: 200px;
+  margin: 100px auto;
+  text-align: center;
+  text-align: left;
+  padding-left: 135px;
+}
+.hr-lines:before{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+   
+}
+
+
+/* third page collections  */
+.collections
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px;
+
+
+}
+.column-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.column {
+  width: 33.33%;
+  padding: 1px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.column-container-art {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.column-2 {
+  width: 33.33%;
+  padding: -55px -55px;
+  font-size: 10px;
+   
+}
+ 
+
+.nft-eth{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.column {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  border: 0px solid white;
+  align-items: center;
+  text-align: center;
+
+}
+.my-button1, .my-button2
+{
+  color:black;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border: 5px;
+}
+
+.my-button2
+{
+  
+}
+
+
+
+
